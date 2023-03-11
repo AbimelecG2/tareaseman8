@@ -18,12 +18,8 @@ import  {FontAwesomeModule} from '@fortawesome/angular-fontawesome' ;
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-import { PiepagComponent } from './components/piepag/piepag.component';
+import { FooterComponent } from './footer/footer.component';
 import 'hammerjs';
-
-
-
-
 
 
 @NgModule({
@@ -31,7 +27,7 @@ import 'hammerjs';
     AppComponent,
     MenuComponent,
     SidenavComponent,
-    PiepagComponent,
+    FooterComponent
     
   ],
   imports: [
